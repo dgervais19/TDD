@@ -17,6 +17,14 @@
 * we will create a file to write our code
 * we will refactor and add the code to pass the test
 
+![](tddSteps.png)
+
+**Naming convention for test files and methods**
+* file name simple_calc
+* test_simple_calc
+
+**install the testing frameworks**
+* ```pip install pytest```
 ## The TDD Cycle
 * Write a failing test
 * Make the test pass
