@@ -59,7 +59,17 @@ class Calctest(unittest.TestCase):
 * test_simple_calc
 
 **install the testing frameworks**
-* ```pip install pytest```
+* install the testing frame work with  ```pip install pytest```
+* pytest looks for the files with ```test_*.py``` and ```_test*.py```
+* "*" is a wildcard for all
+
+**Other Terminal Commands**
+* Run a test in the terminal ```python -m pytest```
+* View breakdown of tests - Shows which tests passed ```python -m unittest discover -v```
+* View breakdown of testing ```pytest -v```
+
+* ```-v``` is verbose flag, it gives you extra details about the testing
+
 ## The TDD Cycle
 * Write a failing test
 * Make the test pass
